@@ -36,6 +36,7 @@ class TrumbowygWidget(Textarea):
             '//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js',
             'trumbowyg/trumbowyg.min.js',
             'trumbowyg/plugins/upload/trumbowyg.upload.js',
+            'https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.23.0/plugins/cleanpaste/trumbowyg.cleanpaste.min.js',
             'trumbowyg/langs/{0}.min.js'.format(get_trumbowyg_language())
         ]
 
